@@ -1,0 +1,39 @@
+=== KEY HEADERS ===
+From: Cato <seeronero663@gmail.com>
+Return-Path: seeronero663@gmail.com
+To: undisclosed-recipients:;
+Subject: ❌ /// Withdrawal error. /AMOUNT: **** USD/ You need to add a withdrawal address in your profile. /// 1141125616673 ////
+Date: Sat, 17 Sep 2022 08:01:14 -0700
+Message-ID: <CABvB-oMGZheGNOBKONSF_pDeCC3zp0r690pSdNyyWg5xfJTAKg@mail.gmail.com>
+
+=== RECEIVED CHAIN (top = last hop before the recipient) ===
+[1] from MN0PR19MB6334.namprd19.prod.outlook.com (::1) by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Sat, 17 Sep 2022 15:01:17 +0000
+[2] from DS7PR03CA0020.namprd03.prod.outlook.com (2603:10b6:5:3b8::25) by MN0PR19MB6334.namprd19.prod.outlook.com (2603:10b6:208:3c2::10) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.
+[3] from DM3NAM02FT057.eop-nam02.prod.protection.outlook.com (2603:10b6:5:3b8:cafe::f1) by DS7PR03CA0020.outlook.office365.com (2603:10b6:5:3b8::25) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA
+[4] from mail-lf1-f66.google.com (209.85.167.66) by DM3NAM02FT057.mail.protection.outlook.com (10.13.5.64) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5632.12 via Frontend Transpo
+[5] by mail-lf1-f66.google.com with SMTP id a3so28046647lfk.9 for <[recipient]>; Sat, 17 Sep 2022 08:01:16 -0700 (PDT)
+[6] by 2002:a05:6520:340d:b0:220:20fe:e1f9 with HTTP; Sat, 17 Sep 2022 08:01:14 -0700 (PDT)
+
+=== AUTHENTICATION ===
+spf=pass (sender IP is 209.85.167.66) smtp.mailfrom=gmail.com; dkim=pass (signature was verified) header.d=gmail.com;dmarc=pass action=none header.from=gmail.com;compauth=pass reason=100
+Pass (protection.outlook.com: domain of gmail.com designates 209.85.167.66 as permitted sender) receiver=protection.outlook.com; client-ip=209.85.167.66; helo=mail-lf1-f66.google.com; pr=C
+DKIM-Signature: d=gmail.com s=20210112
+
+=== BODY (first 1400 chars, decoded) ===
+https://drive.google.com/file/d/1EMONkPN8uuKTHvpM6wC-21N8mx5tAuTp/preview
+
+
+
+=== LINKS (defanged, never click) ===
+- hxxps://drive[.]google[.]com/file/d/1EMONkPN8uuKTHvpM6wC-21N8mx5tAuTp/preview  (shown as: "(bare URL in text)")
+Total unique links: 1
+
+=== ATTACHMENTS (names/types only, never opened) ===
+- sSZt7uix.pdf [application/pdf] ~17058 bytes
+
+=== AUTO FLAGS (hints for the analyst, not a verdict) ===
+- From domain is 'gmail.com'
+- Sender uses a free webmail address (gmail.com)
+- Non-ASCII characters in From/Subject (possible lookalike or obfuscation)
+- Link domains: drive[.]google[.]com
+- Attachment type often abused: sSZt7uix.pdf

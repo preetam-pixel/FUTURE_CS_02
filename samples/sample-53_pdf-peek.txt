@@ -1,0 +1,2 @@
+PDF #1: 16835 bytes, starts with '%PDF-1.7'
+URL inside PDF: hxxps://drive[.]google[.]com/file/d/1_o5Tx5ufzZFAsQwCbJtS77DsMa6r3XQA/preview

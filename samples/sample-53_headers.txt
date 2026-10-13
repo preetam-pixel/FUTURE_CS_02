@@ -1,0 +1,146 @@
+Received: from MN0PR19MB6334.namprd19.prod.outlook.com (::1) by
+ MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Sat, 17 Sep 2022 15:01:17
+ +0000
+Received: from DS7PR03CA0020.namprd03.prod.outlook.com (2603:10b6:5:3b8::25)
+ by MN0PR19MB6334.namprd19.prod.outlook.com (2603:10b6:208:3c2::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5632.18; Sat, 17 Sep
+ 2022 15:01:16 +0000
+Received: from DM3NAM02FT057.eop-nam02.prod.protection.outlook.com
+ (2603:10b6:5:3b8:cafe::f1) by DS7PR03CA0020.outlook.office365.com
+ (2603:10b6:5:3b8::25) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5632.18 via Frontend
+ Transport; Sat, 17 Sep 2022 15:01:16 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.167.66)
+ smtp.mailfrom=gmail.com; dkim=pass (signature was verified)
+ header.d=gmail.com;dmarc=pass action=none header.from=gmail.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.167.66 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.167.66; helo=mail-lf1-f66.google.com; pr=C
+Received: from mail-lf1-f66.google.com (209.85.167.66) by
+ DM3NAM02FT057.mail.protection.outlook.com (10.13.5.64) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5632.12 via Frontend Transport; Sat, 17 Sep 2022 15:01:16 +0000
+X-IncomingTopHeaderMarker:
+ OriginalChecksum:16177A9008A4111844F91F5E6787AA2CBD7C6CB1C3A9E1FB746DC65B53716D4E;UpperCasedChecksum:25401F111298E604AD51F6D30E4432CD232BE8B13A378A6EDCDC65D505BD88D7;SizeAsReceived:2514;Count:15
+Received: by mail-lf1-f66.google.com with SMTP id a3so28046647lfk.9
+        for <recipient@redacted.invalid>; Sat, 17 Sep 2022 08:01:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date;
+        bh=B3uvchzSf1dAuqkTtrxz7Z8P0CSQwFuE6YJMha9KwVw=;
+        b=nuPq2t1fCSUym+KpoSGlGWhI5Tax34xr4C1C4dIpimi70FIAFQhNu5gWzBnje8TZUZ
+         2Qlgt3fIvl2cjGEX6EWEWVu51ATForOdy32stKpI9EMXLJFQljE2AmfYgGRpwEaG7MCm
+         DFr2JwzAWY7jSqSazBbgjq/WqoINJg18g64IW/GcmulMSHtjIKAaOpzYvr1zmjKdDoJ2
+         WUYUdonMirBIH5lMjLR2ObhmkV/5hdrMtTyKpvMKbeOaRkjWNfYHiydZAsfH1CujlQgJ
+         4jxnrT4L5kL29LuaS1eI5K5QR/SdtlVU81DFw5e1xD6d1kWFMgyLNeHK2Rt5M5QmnjMJ
+         7LZg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date;
+        bh=B3uvchzSf1dAuqkTtrxz7Z8P0CSQwFuE6YJMha9KwVw=;
+        b=jHjqE4Q6G0lS53ToIComOqUeRcx8c4XEQrlO1Qz7F3Xs2D4Zhol271cuNM0KVq/S0y
+         asKj5PHxmPQbj4kx0Stplm41yUNXDytSBabeHhhUMQZVVEMhjZGbwYb6R/utGgfGqHmk
+         myKs75kI8L+yTfDNDtsnmyQF0wNIEYXr4AnDSx/p0mFeXqrc6t/KrXgnKqtXlSmp2c0V
+         b5h1coTx8pGR96wvLZ4hbbKDHDljaUKRWqo3gFe/7VrUk/6ugie7bBnPlcMM+iRSnsqZ
+         xB5ZWn3Hpbmf9xrR4rITlJTZjenu834wo7UKSjwEE+kWOYVMvkBZD+TSeCYYlgGKbbSW
+         5mqg==
+X-Gm-Message-State: ACrzQf37hEVFgkQotCZO9Diz1aBaqJBScEW6d/AlYLTr2J73DXZ0rCNw
+	G1LHLEqdTqqJEWC5RtBUQ2ycfcbqFbgKwqOPzBc=
+X-Google-Smtp-Source: AMsMyM5iqXeJA4vSTLodZ6m5rO1SSypvTPbnEYq6rkeqC9okJshrm1kj4LPzylcylpbGPRSXJefAT11WC2NUezotLMg=
+X-Received: by 2002:a05:6512:2384:b0:497:ad1c:799 with SMTP id
+ c4-20020a056512238400b00497ad1c0799mr3185560lfv.294.1663426875787; Sat, 17
+ Sep 2022 08:01:15 -0700 (PDT)
+Received: by 2002:a05:6520:340d:b0:220:20fe:e1f9 with HTTP; Sat, 17 Sep 2022
+ 08:01:14 -0700 (PDT)
+From: Cato <seeronero663@gmail.com>
+Date: Sat, 17 Sep 2022 08:01:14 -0700
+Message-ID: <CABvB-oMGZheGNOBKONSF_pDeCC3zp0r690pSdNyyWg5xfJTAKg@mail.gmail.com>
+Subject: =?UTF-8?B?4p2MIC8vLyBXaXRoZHJhd2FsIGVycm9yLiAvQU1PVU5UOiAqKioqIFVTRC8gWW91IG5lZQ==?=
+	=?UTF-8?B?ZCB0byBhZGQgYSB3aXRoZHJhd2FsIGFkZHJlc3MgaW4geW91ciBwcm9maWxlLiAvLy8gMTE0MTEyNTYx?=
+	=?UTF-8?B?NjY3MyAvLy8v?=
+To: [redacted]
+Content-Type: multipart/mixed; boundary="0000000000000ab05505e8e0c083"
+Bcc: [redacted]
+X-IncomingHeaderCount: 15
+Return-Path: seeronero663@gmail.com
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Sep 2022 15:01:16.8099
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 2d1ede0c-5a22-49b0-dd6d-08da98bd78ba
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: DM3NAM02FT057:EE_|MN0PR19MB6334:EE_
+X-MS-Exchange-Organization-AuthSource:
+ DM3NAM02FT057.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 9/17/2022 2:07:47 PM
+X-MS-Office365-Filtering-Correlation-Id: 2d1ede0c-5a22-49b0-dd6d-08da98bd78ba
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 209.85.167.66
+X-SID-PRA: SEERONERO663@GMAIL.COM
+X-SID-Result: PASS
+X-MS-Exchange-Organization-PCL: 2
+X-MS-Exchange-Organization-SCL: 7
+X-Microsoft-Antispam: BCL:0;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Sep 2022 15:01:16.7787
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2d1ede0c-5a22-49b0-dd6d-08da98bd78ba
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource:
+ DM3NAM02FT057.eop-nam02.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+ 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN0PR19MB6334
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.6575531
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.5588.017
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ucf:0;jmr:0;ex:0;auth:1;dest:J;OFR:SpamFilterAuthJ;ENG:(5062000305)(90000117)(90005022)(91005020)(91035115)(5061607266)(5061608174)(9050020)(9100338)(4810004)(4910033)(8810097)(9610025)(9525003)(10135022)(9320005)(9245025);RF:JunkEmail;
+X-Message-Info:
+	6hMotsjLow/3FvY4Yd2GMmzruA8RKYYYBq2uDwu/IRyv82RzyYBHuh80xYrtR8mc3ipELI0rJMjHv7l9mMtDY57bA/X0+HvV5uT8DjNTr7ECfahpGJ4aomFY+NF4igxqLdv1oJ8yeKE39CSSWXUH9zA3AyMhQ9/nYsaKcqcy9Rw6gGToIfkn9GYYHn/uQJTBWbcMAxoHF/aTPvWvCUq32w==
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0zO1NDTD02
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bkNVU2VaMWtJSW5EckZmWEd5ejlNWUZyZnI5TDZlZzg0a1FTVUM4MDdqeE9u?=
+ =?utf-8?B?ckc4REtWUWZEOVQ2aHlyYTNydWRwUDBqdXU5aGFsc2hIRDNXeUZJeWhkZ2Z1?=
+ =?utf-8?B?OE4vcWV1azRYZ0VIS3M2ZzBrT2RTTzcxOVl0cEF0RUJGU1hVRkZzNFU4bkx4?=
+ =?utf-8?B?ekkwOEJMMHlwZTZma2lsQUpkb0xJenpNeWdncG1kWVpBS1p5WE1KRkVTcnR5?=
+ =?utf-8?B?bU01NitxTkwxY0p0MGkxVGVVdjBNVHR4UTBXY2U0LzN1R0ZyMzgzdFZqeC9l?=
+ =?utf-8?B?clEydE5UcXFpYkt3VjdkK3RQd0dhZ0VodmNxRmdSN2VGQStNQjdYNWNXd2dh?=
+ =?utf-8?B?bDFUTVRFM3NmRzAvR1pibkY2L0tkVWRNdFdGdjFJQzFWTWRpdUJVbDREUy85?=
+ =?utf-8?B?bWJCb1JFc2prcjZ2MXhpcFA5STlia251c3EzVTJFRHFNL0phZm8zWURnU2ZB?=
+ =?utf-8?B?NkZManY3MTUxUzQ5WG9ZNWlEK2RMSSt0VnRNZDd5aDhHVHora3ZqLytjT0d6?=
+ =?utf-8?B?TDNDY1Nra2dMeDZDM1NUcTVub0ZRcHBUSlQvVTJwMXpDN3Rmb01TUUZyNXVK?=
+ =?utf-8?B?cmIzTmgvTW9zNThBeEJTcm9GRzBnR0dlV0Y2TzNCYUIwc2hoZkVDR3hhTHNC?=
+ =?utf-8?B?NEJzYnFmNTVBUWxnUGk2TWJGSHIxOFJiQ2xUT0JvRk4yV3d4UXVkNktrZC9l?=
+ =?utf-8?B?RXdMT25iNGttMisxd2k1RUtKeS9vN3M3Sk5yN3RtV0NGZ0t5QnZkZFRHM0JM?=
+ =?utf-8?B?TVBObzJuNlpNZlJZWFhwUlF4U2c4TDdUcFpjSVdOdWNYWFBKVHRTTWRldTNo?=
+ =?utf-8?B?NnUveWFNaWJqRHFodXVremJMTHpaaGV2NGxWN0xKMTRBaEhkVnJobDBHL1Iy?=
+ =?utf-8?B?clUzakZnQzZKNVltYytVTW5PRHc2MDh5TzBoYmRWT05SUUExdWMxYkE0RlZj?=
+ =?utf-8?B?bGdieVlDTjFqUjlNZW1QV1dtdDZXaS9GN25Hd2MrRGZJbnA4bVpDVW1oNlFo?=
+ =?utf-8?B?MmpvR1NkeVdqamlyVVBicm5lK0ZPUGpMZUJkRUF4S1ZEQ1NpbmVTQnYxNTIr?=
+ =?utf-8?B?R2VvRVVoUktSY3ZnTkV4dnd6dFF3WCs3N083QWxtcm9MdkFKdVMzbXF6NGhD?=
+ =?utf-8?B?Q0YzVnB6MW5lbUZibDgwc1lBQXB4RWk5b1ZEVm9ZNlVZMGMxbmlMaFVBUDdw?=
+ =?utf-8?B?SWdibVk1Z3BkWjZOZzhhbElLVHh0My9TTWVQRS9Ud0xCR1Foa2ZUWUxHN04w?=
+ =?utf-8?B?R1ExU1JKaVNiclVrL0dGZUdaMlBuQndWeStEcXBSNWFJVUhUK3pwbXpubkZC?=
+ =?utf-8?B?bDBFdWxpR1dBdlg3VFBPNHY4OE5GcFp6Sjlpekd6U1Brdng0cWdGSlo1OXMr?=
+ =?utf-8?B?SVlhRmhUWU94V0R2OW8xYU9GRFJmR1hPTFhaOGI1ZElRRDRXdDgycC9hL1lK?=
+ =?utf-8?B?ek5SQ2ovQUR0OUM4eWRIWEt4Y0J2L2hsWkxNK0hJM1NrY0N6RGx4QUVmQ0JV?=
+ =?utf-8?B?TkhkdG0yV1cvdUp1NldoWGpzOHV1MCtwRnFMamNydDlYRFJQNlNKaU5LRDFC?=
+ =?utf-8?B?c0hhc05DUVhWNXBOSG9HMjZIOWVRdDl1eDFITkV0RjJGOWI4T2h0eFhrRVF6?=
+ =?utf-8?B?TVRPOWJyWk1nQ3FXeTZsMXUvMDBONW1KSDdzR3dJaUhWdGgycjhwVEdiRStH?=
+ =?utf-8?B?cDYyOFVmTXZYRzA1YjkrQXh5UG9aT3RDMndMbWdZM2NXTGhxcFRlMmQyNGg4?=
+ =?utf-8?B?dUJmMGVONEMwNHVuQVM2cWZZVWxZOEtHWEZ1eGNsdjhSVE5jYy9UTDFkNm1O?=
+ =?utf-8?B?TzJ1UkNONk5UTk9tU0F2VlhTRHJRdGhDS2lVVk9HVzRPemFqNnFxSzhwdVBX?=
+ =?utf-8?B?Tmtpd2hndlhqVm1JVXc5bG5RUm5HRFB3bGlEZmdPUE94OEFpNU5IU3k3OHZE?=
+ =?utf-8?Q?DA+14I7bB90UyI3JOqdq74I5BwnfzoZk?=
+MIME-Version: 1.0

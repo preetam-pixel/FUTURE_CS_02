@@ -1,0 +1,16 @@
+Source: example phishing email from the Future Interns Cyber Security Task 2 brief (body only, no headers)
+URL defanged for safety.
+
+Subject: Urgent: Your Account Will Be Locked
+
+Dear User,
+
+We noticed suspicious activity on your account.
+To avoid account suspension, please verify your details immediately.
+
+Verify Now: hxxp://secure-account-verify[.]com
+
+Failure to verify within 24 hours will result in permanent account lock.
+
+Regards,
+Security Team

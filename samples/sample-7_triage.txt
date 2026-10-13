@@ -1,0 +1,62 @@
+=== KEY HEADERS ===
+From: Google Notifications <notify-noreply@google.com>
+Return-Path:  38qf6ZA4KC1sGHMB8R-GHK7IER9HH9E7.5HFKH6KB9H-8-IAHMF3BE.5HF@chime-notifications.bounces.google.com
+To: [recipient]
+Subject: dubill hd7t invited you to view a collection: "🌅 we hope our chosen opt"
+Date: Thu, 07 Sep 2023 21:49:54 -0700
+Message-ID: <of6nAWgPaqXHrON-JdRXng@notifications.google.com>
+List-Unsubscribe: https://notifications.google.com/emailpreferences/unsubscribe/AIbu_FuGgOihvrjHPft3FIVOB7iwnX7xEyjpYdGSEnZUQimcugtzDlEXhpK_DAa1pLPEhbaN7N4mfd5fToKR4UwkC5aRoFuHyVK4Y8-Yd1JM7AxECnS04l69XjvC39V8sT36Nu1jdxWbRPnvn-ogQw
+
+=== RECEIVED CHAIN (top = last hop before the recipient) ===
+[1] from DS0PR19MB8316.namprd19.prod.outlook.com (2603:10b6:8:1a0::10) by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Fri, 8 Sep 2023 04:49:55 +0000
+[2] from DM6PR02CA0130.namprd02.prod.outlook.com (2603:10b6:5:1b4::32) by DS0PR19MB8316.namprd19.prod.outlook.com (2603:10b6:8:1a0::10) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20
+[3] from DM6NAM04FT052.eop-NAM04.prod.protection.outlook.com (2603:10b6:5:1b4:cafe::94) by DM6PR02CA0130.outlook.office365.com (2603:10b6:5:1b4::32) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA
+[4] from mail-il1-f200.google.com (209.85.166.200) by DM6NAM04FT052.mail.protection.outlook.com (10.13.158.245) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6768.30 via Frontend Tr
+[5] by mail-il1-f200.google.com with SMTP id e9e14a558f8ab-34bbbec7e6bso11828015ab.2 for <[recipient]>; Thu, 07 Sep 2023 21:49:54 -0700 (PDT)
+
+=== AUTHENTICATION ===
+spf=pass (sender IP is 209.85.166.200) smtp.mailfrom=chime-notifications.bounces.google.com; dkim=pass (signature was verified) header.d=google.com;dmarc=pass action=none header.from=google.com;compauth=pass reason=100
+Pass (protection.outlook.com: domain of chime-notifications.bounces.google.com designates 209.85.166.200 as permitted sender) receiver=protection.outlook.com; client-ip=209.85.166.200; helo=mail-il1-f200.google.com; pr=C
+DKIM-Signature: d=google.com s=20221208
+
+=== BODY (first 1400 chars, decoded) ===
+dubill hd7t invited you to view a collection
+
+In regards to that Go to form 
+https://docs.google.com/forms/d/e/1FAIpQLSfGJfSDGslMI1OQ1x_pcUzzvvmvoqm5MpCDIwtL9d7wZYMoZQ/viewform#1kt5m6bzsbw4r3qlyqntjtr1znxtnr4jywchse
+
+
+🌅 we hope our chosen opt
+
+By dubill hd7t · 1 item
+
+
+View collection
+
+
+You received this mail because dubill hd7t shared this collection with you. 
+If you no longer wish to receive email notification of shared collections, 
+unsubscribe here.
+
+
+
+Get the Google Search App
+Download on the App Store Get it on Google Play
+
+
+
+=== LINKS (defanged, never click) ===
+- hxxps://notifications[.]googleapis[.]com/email/redirect?t=AFG8qyWiDUQNcsdP8FlFw_hScnfU0B_xUlwYFKcIu2Nxm8orO1TNOS1jVRxyeqOb1x0w5Vhi_VI0  (shown as: "View collection")
+- hxxps://notifications[.]googleapis[.]com/email/redirect?t=AFG8qyXH5S9hc3YDI3A8cglbUczR3ZGkVedhHfGttqZmB46Oi53ZAsVjjRozVM_Smp0NnSZWJZsg  (shown as: "unsubscribe here")
+- hxxps://notifications[.]googleapis[.]com/email/redirect?t=AFG8qyUhIxFGNtragRPPDf36n-6R0zLAfDSvpg6DajGlvwAXcKDgx3XXgesMOiFEJqp0wJS5D6wA  (shown as: "")
+- hxxps://notifications[.]googleapis[.]com/email/redirect?t=AFG8qyVrqMjVOmYW4Nd2WWq9ge-uezuQ5EftHGiesuv1UFdPfwVoNValb15wX476h-1zniJ-to47  (shown as: "")
+- hxxps://docs[.]google[.]com/forms/d/e/1FAIpQLSfGJfSDGslMI1OQ1x_pcUzzvvmvoqm5MpCDIwtL9d7wZYMoZQ/viewform#1kt5m6bzsbw4r3qlyqntjtr1znxtnr  (shown as: "(bare URL in text)")
+Total unique links: 5
+
+=== ATTACHMENTS (names/types only, never opened) ===
+(none)
+
+=== AUTO FLAGS (hints for the analyst, not a verdict) ===
+- From domain is 'google.com'
+- Non-ASCII characters in From/Subject (possible lookalike or obfuscation)
+- Link domains: docs[.]google[.]com, notifications[.]googleapis[.]com

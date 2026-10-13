@@ -1,0 +1,70 @@
+=== KEY HEADERS ===
+From: Microsoft account team <no-reply@microsoft.com>
+Reply-To: media-protection@usual-assist.com
+Return-Path: bounce@nisihfjoz.co.uk
+To: [recipient]
+Subject: Microsoft account unusual sign-in activity
+Date: Thu, 3 Nov 2022 02:44:27 +0000
+Message-ID:  <ce2fb41e-b910-4df7-bbfb-43b8126ba45c@DM6NAM11FT012.eop-nam11.prod.protection.outlook.com>
+
+=== RECEIVED CHAIN (top = last hop before the recipient) ===
+[1] from DS7PR19MB5976.namprd19.prod.outlook.com (::1) by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Thu, 3 Nov 2022 02:44:29 +0000
+[2] from DM6PR03CA0090.namprd03.prod.outlook.com (2603:10b6:5:333::23) by DS7PR19MB5976.namprd19.prod.outlook.com (2603:10b6:8:81::22) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.
+[3] from DM6NAM11FT012.eop-nam11.prod.protection.outlook.com (2603:10b6:5:333:cafe::53) by DM6PR03CA0090.outlook.office365.com (2603:10b6:5:333::23) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA
+[4] from nisihfjoz.co.uk (103.167.154.120) by DM6NAM11FT012.mail.protection.outlook.com (10.13.173.109) with Microsoft SMTP Server id 15.20.5791.20 via Frontend Transport; Thu, 3 Nov 2022 02:44:27 +0000
+
+=== AUTHENTICATION ===
+spf=none (sender IP is 103.167.154.120) smtp.mailfrom=nisihfjoz.co.uk; dkim=fail (no key for signature) header.d=microsoft.com;dmarc=fail action=oreject header.from=microsoft.com;compauth=fail reason=000
+None (protection.outlook.com: nisihfjoz.co.uk does not designate permitted sender hosts)
+DKIM-Signature: d=microsoft.com s=smtp
+
+=== BODY (first 1400 chars, decoded) ===
+
+
+Microsoft account
+
+Unusual sign-in activity
+
+We detected something unusual about a recent sign-in to the Microsoft account [recipient].
+
+Sign-in details
+
+Country/region: Russia/Moscow
+
+IP address: 103.225.77.255
+
+Date: Thu, 03 Nov 2022 02:40:58 +0000
+
+Platform: Windows 10
+
+Browser: Firefox
+
+A user from Russia/Moscow just logged into your account from a new device, If this wasn't you, please report the user. If this was you, we'll trust similar activity in the future.
+
+Report The User
+
+To opt out or change where you receive security notifications, click here.
+
+Thanks,
+
+The Microsoft account team
+
+
+
+=== LINKS (defanged, never click) ===
+- mailto:media-protection@usual-assist[.]com?&cc=media-protection@usual-assist[.]com
+&Subject=Report+The+User  (shown as: "[recipient]")
+- mailto:media-protection@usual-assist[.]com?&cc=media-protection@usual-assist[.]com&subject=unusual sign-in activity&body=Report The Us  (shown as: "Report The User")
+- mailto:media-protection@usual-assist[.]com
+?&cc=media-protection@usual-assist[.]com
+&Subject=Unsubscribe+me  (shown as: "click here")
+Total unique links: 3
+
+=== ATTACHMENTS (names/types only, never opened) ===
+(none)
+
+=== AUTO FLAGS (hints for the analyst, not a verdict) ===
+- From domain is 'microsoft.com'
+- Return-Path domain (nisihfjoz.co.uk) differs from From domain (microsoft.com)
+- Reply-To domain (usual-assist.com) differs from From domain (microsoft.com)
+- Urgency/fear wording: unusual

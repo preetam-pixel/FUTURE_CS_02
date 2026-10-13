@@ -1,0 +1,67 @@
+=== KEY HEADERS ===
+From: Microsoft account team ,_<no-reply@access-accsecurity.com>
+Reply-To: sotrecognizd@gmail.com
+Return-Path: bounce@thcultarfdes.co.uk
+To: [recipient]
+Subject: Microsoft account unusual signin activity
+Date: Fri, 8 Sep 2023 05:47:04 +0000
+Message-ID:  <032672b4-77ca-42f8-a036-9711e91bd1f3@DB8EUR06FT032.eop-eur06.prod.protection.outlook.com>
+
+=== RECEIVED CHAIN (top = last hop before the recipient) ===
+[1] from SJ0PR19MB6679.namprd19.prod.outlook.com (::1) by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Fri, 8 Sep 2023 05:47:06 +0000
+[2] from DB8P191CA0014.EURP191.PROD.OUTLOOK.COM (2603:10a6:10:130::24) by SJ0PR19MB6679.namprd19.prod.outlook.com (2603:10b6:a03:477::19) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.
+[3] from DB8EUR06FT032.eop-eur06.prod.protection.outlook.com (2603:10a6:10:130:cafe::9b) by DB8P191CA0014.outlook.office365.com (2603:10a6:10:130::24) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_S
+[4] from thcultarfdes.co.uk (89.144.44.2) by DB8EUR06FT032.mail.protection.outlook.com (10.233.253.34) with Microsoft SMTP Server id 15.20.6768.30 via Frontend Transport; Fri, 8 Sep 2023 05:47:04 +0000
+
+=== AUTHENTICATION ===
+spf=none (sender IP is 89.144.44.2) smtp.mailfrom=thcultarfdes.co.uk; dkim=none (message not signed) header.d=none;dmarc=permerror action=none header.from=access-accsecurity.com;
+None (protection.outlook.com: thcultarfdes.co.uk does not designate permitted sender hosts)
+
+=== BODY (first 1400 chars, decoded) ===
+
+
+Microsoft account
+
+Unusual sign.in activity
+
+We detected something unusual about a recent sign-in to the Microsoft account [recipient].
+
+Sign-in details
+
+Country/region: Russia/Moscow
+
+IP address: 103.225.77.255
+
+Date: Fri, 08 Sep 2023 05:46:57 +0000
+
+Platform: Windows 10
+
+Browser: Firefox
+
+A user from Russia/Moscow just logged into your account from a new device, If this wasn't you, please report the user. If this was you, we'll trust similar activity in the future.
+
+Report The User
+
+To opt out or change where you receive security notifications, click here.
+
+Thanks,
+
+The Microsoft account team
+
+
+
+=== LINKS (defanged, never click) ===
+- mailto:sotrecognizd@gmail[.]com?&cc=sotrecognizd@gmail[.]com&Subject=Report+The+User  (shown as: "[recipient]")
+- mailto:sotrecognizd@gmail[.]com?&cc=sotrecognizd@gmail[.]com&subject=unusual signin activity&body=Report The User  (shown as: "Report The User")
+- mailto:sotrecognizd@gmail[.]com?&cc=sotrecognizd@gmail[.]com&Subject=Unsubscribe+me  (shown as: "click here")
+Total unique links: 3
+
+=== ATTACHMENTS (names/types only, never opened) ===
+(none)
+
+=== AUTO FLAGS (hints for the analyst, not a verdict) ===
+- From domain is 'access-accsecurity.com'
+- Return-Path domain (thcultarfdes.co.uk) differs from From domain (access-accsecurity.com)
+- Reply-To domain (gmail.com) differs from From domain (access-accsecurity.com)
+- Display name mentions 'microsoft' but the sending domain is 'access-accsecurity.com'
+- Urgency/fear wording: unusual

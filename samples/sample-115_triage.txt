@@ -1,0 +1,51 @@
+=== KEY HEADERS ===
+From: "Jean Patrick" <j.patrick@ecb.com>
+Reply-To: jean.patrick.ecb@gmail.com
+Return-Path: j.patrick@ecb.com
+To: Recipients <[redacted-address]>
+Subject: Final Fund Release Notice!!!
+Date: Tue, 15 Nov 2022 14:15:55 +0100
+Message-ID: <202211151316.2AFDFqcM35061806@nhf-dc01-brk1.fvp-it.de>
+
+=== RECEIVED CHAIN (top = last hop before the recipient) ===
+[1] from MW4PR19MB6862.namprd19.prod.outlook.com (::1) by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Tue, 15 Nov 2022 13:35:45 +0000
+[2] from CH2PR11CA0017.namprd11.prod.outlook.com (2603:10b6:610:54::27) by MW4PR19MB6862.namprd19.prod.outlook.com (2603:10b6:303:1ef::12) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15
+[3] from CH0PR11MB5457.namprd11.prod.outlook.com (2603:10b6:610:54:cafe::bb) by CH2PR11CA0017.outlook.office365.com (2603:10b6:610:54::27) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15
+[4] from ZR0P278CA0025.CHEP278.PROD.OUTLOOK.COM (2603:10a6:910:1c::12) by CH0PR11MB5457.namprd11.prod.outlook.com (2603:10b6:610:d0::13) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2
+[5] from VE1EUR01FT010.eop-EUR01.prod.protection.outlook.com (2603:10a6:910:1c:cafe::49) by ZR0P278CA0025.outlook.office365.com (2603:10a6:910:1c::12) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_S
+[6] from mail01.fvp-it.de (195.250.48.102) by VE1EUR01FT010.mail.protection.outlook.com (10.152.2.83) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5813.12 via Frontend Transport; T
+[7] from 10.6.8.73 by mail01.fvp-it.de; Tue, 15 Nov 2022 13:16:06 GMT
+[8] from HY-FQKUT.42436 (loopback [127.0.0.1]) by nhf-dc01-brk1.fvp-it.de (AIX7.1/8.14.4/8.14.4) with ESMTP id 2AFDFqcM35061806; Tue, 15 Nov 2022 14:16:02 +0100
+
+=== AUTHENTICATION ===
+spf=softfail (sender IP is 195.250.48.102) smtp.mailfrom=ecb.com; dkim=none (message not signed) header.d=none;dmarc=fail action=quarantine header.from=ecb.com;compauth=fail reason=000
+SoftFail (protection.outlook.com: domain of transitioning ecb.com discourages use of 195.250.48.102 as permitted sender)
+
+=== BODY (first 1400 chars, decoded) ===
+ Good Day
+ 
+ One of the responsibilities of the European Central Bank (ECB) is to ensure customers get absolute satisfaction when dealing with any bank under the ECB jurisdiction. Please accept our apologies for the delay in our response to you; this is due to the high number of reviews we receive every day.
+ 000
+ We would like to inform you that, within the Single Supervisory Mechanism, the European Central Bank (ECB) is exclusively responsible for specific tasks related to the prudential supervision of credit institutions. This means that it aims to detect risks to banks' viability in order to ensure the safety and soundness of the European banking system and to enhance financial integration and stability. Our supervisory responsibilities include intervening in the relations between credit institutions and their customer if the need arises.
+ 000
+ You have a pending fund which remains in a dormant state in our system. We wish to give you your fund without any further delay.
+ 
+ 
+ Yours sincerely,
+ Jean Patrick
+ E:mail: [redacted-address]
+ Public Communication.
+
+
+
+=== LINKS (defanged, never click) ===
+- mailto:jean[.]patrick[.]ecb@europe[.]com  (shown as: "jean.patrick.ecb@europe.com")
+Total unique links: 1
+
+=== ATTACHMENTS (names/types only, never opened) ===
+(none)
+
+=== AUTO FLAGS (hints for the analyst, not a verdict) ===
+- From domain is 'ecb.com'
+- Reply-To domain (gmail.com) differs from From domain (ecb.com)
+- Prize/money wording: fund

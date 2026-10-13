@@ -1,0 +1,71 @@
+=== KEY HEADERS ===
+From: MashreqAlerts <postmaster@digitalmashreq.mg.tdi.tc>
+Return-Path: bounce+a57fa4.cba7bc-[recipient]=hotmail.com@mg.tdi.tc
+Sender: postmaster=digitalmashreq.mg.tdi.tc@mg.tdi.tc
+To: [recipient]
+Subject: Confirm Your Mashreq Email Now For Your Security (MOVE TO INBOX)
+Date: Wed, 20 Sep 2023 10:49:41 +0000
+Message-ID: <20230920104941.05fa86daa715a6e3@mg.tdi.tc>
+
+=== RECEIVED CHAIN (top = last hop before the recipient) ===
+[1] from PH8PR19MB6952.namprd19.prod.outlook.com (::1) by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Wed, 20 Sep 2023 10:49:45 +0000
+[2] from DUZPR01CA0163.eurprd01.prod.exchangelabs.com (2603:10a6:10:4b3::25) by PH8PR19MB6952.namprd19.prod.outlook.com (2603:10b6:510:22b::14) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) 
+[3] from DB3EUR04FT006.eop-eur04.prod.protection.outlook.com (2603:10a6:10:4b3:cafe::30) by DUZPR01CA0163.outlook.office365.com (2603:10a6:10:4b3::25) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_S
+[4] from pc232-5.mailgun.net (143.55.232.5) by DB3EUR04FT006.mail.protection.outlook.com (10.152.24.75) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6813.16 via Frontend Transport;
+[5] from <unknown> (<unknown> []) by 27533be87c53 with HTTP id 650ace4529d32acfabba00ab; Wed, 20 Sep 2023 10:49:41 GMT
+
+=== AUTHENTICATION ===
+spf=none (sender IP is 143.55.232.5) smtp.mailfrom=mg.tdi.tc; dkim=fail (no key for signature) header.d=mg.tdi.tc;dmarc=fail action=none header.from=digitalmashreq.mg.tdi.tc;compauth=fail reason=001
+None (protection.outlook.com: mg.tdi.tc does not designate permitted sender hosts)
+DKIM-Signature: d=mg.tdi.tc s=mx
+
+=== BODY (first 1400 chars, decoded) ===
+
+
+ Mashreq Email
+
+ Please Verify Your Email
+
+ Dear
+ Client,
+
+ Your security matters. To enhance it, we've added a new feature. Please verify your email every 30 days to protect your Mashreq Online Banking account.
+
+ Sign in To verify your email
+
+ Regrettably, it seems our previous email was ignored. Please address the instructions promptly.
+
+Verify your email by signing into your Mashreq Online Banking account.
+
+ 24 Hour Mashreq contact number +971 4 424 4411
+
+ Best Regards,
+
+ Mashreq Team
+
+ Disclaimer: This is a system generated email message.
+
+ For any queries, please contact the Bank.
+
+ Copyright © 2020 Mashreq
+
+
+
+=== LINKS (defanged, never click) ===
+- hxxps://www[.]bing[.]com/ck/a?!&&p=b03d939202acb382JmltdHM9MTY5NTE2ODAwMCZpZ3VpZD0wODI2ODBmNS1jMmZiLTZiZTAtMzM2ZS05Mzk5YzM3NzZhZGImaW5  (shown as: "Sign in To verify your email")
+- tel:+971 4 424 4411  (shown as: "+971 4 424 4411")
+- hxxps://www[.]facebook[.]com/Mashreqbank/  (shown as: "")
+- hxxps://www[.]youtube[.]com/user/Mashreqbanklive  (shown as: "")
+- hxxps://www[.]linkedin[.]com/company/mashreqbank  (shown as: "")
+- hxxps://www[.]instagram[.]com/mashreq/  (shown as: "")
+- hxxps://twitter[.]com/MashreqTweets  (shown as: "")
+Total unique links: 7
+
+=== ATTACHMENTS (names/types only, never opened) ===
+(none)
+
+=== AUTO FLAGS (hints for the analyst, not a verdict) ===
+- From domain is 'digitalmashreq.mg.tdi.tc'
+- Urgency/fear wording: confirm, verify
+- Generic greeting (no real name)
+- Link domains: twitter[.]com, www[.]bing[.]com, www[.]facebook[.]com, www[.]instagram[.]com, www[.]linkedin[.]com, www[.]youtube[.]com

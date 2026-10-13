@@ -1,0 +1,43 @@
+=== KEY HEADERS ===
+From: LinkedIn <messages-noreply@linkedin.com>
+Return-Path: <[redacted-token]@bounce.linkedin.com>
+To: [redacted]
+Subject: Reminder: Information Technology Rules
+Date: Wed, 19 Aug 2026 01:53:43 +0000 (UTC)
+Message-ID: <1926638448.2178112.1787104423266@lva2-app73704.prod.linkedin.com>
+
+=== RECEIVED CHAIN (top = last hop before the recipient) ===
+[1] by 2002:a05:612c:6c8b:b0:5ca:b0d8:f78a with SMTP id 11csp109341vqk; Tue, 18 Aug 2026 18:53:43 -0700 (PDT)
+[2] from mailf-ab.linkedin.com (mailf-ab.linkedin.com. [108.174.3.226]) by mx.google.com with ESMTPS id 6a1803df08f44-90c5f27df98si3219796d6.177.2026.08.18.18.53.43 for <[redacted-address]> (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA38
+
+=== AUTHENTICATION ===
+mx.google.com; dkim=pass header.i=@mailf.linkedin.com header.s=d2048-202308-0f header.b=bQgjeC57; dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=FmaLNBp+; spf=pass (google.com: domain of [redacted-token]@bounce.linkedin.com designates 108.174.3.226 as permitted sender) smtp.mailfrom=[redacted-token]
+pass (google.com: domain of [redacted-token]@bounce.linkedin.com designates 108.174.3.226 as permitted sender) client-ip=108.174.3.226;
+i=1; mx.google.com; dkim=pass header.i=@mailf.linkedin.com header.s=d2048-202308-0f header.b=bQgjeC57; dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=FmaLNBp+; spf=pass (google.com: domain of [redacted-token]@bounce.linkedin.com designates 108.174.3.226 as permitted sender) smtp.mailfrom=[redacted-t
+DKIM-Signature: d=mailf.linkedin.com s=d2048-202308-0f
+DKIM-Signature: d=linkedin.com s=d2048-202308-00
+
+=== BODY (first 1400 chars, decoded) ===
+Hello [First Name],
+
+LinkedIn is required to send the following as a reminder to all members in India in accordance with India's Information Technology (Intermediary Guidelines) Amendment Rules, 2026. This email is merely a reminder of our policies; it does not indicate that your account is not in good standing.
+
+LinkedIn's https://www.linkedin.com/e/v2?urlhash=1Q9e&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flegal%2Fuser-agreement&lipi=[redacted], https://www.linkedin.com/e/v2?urlhash=i6r_&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flegal%2Fprivacy-policy&lipi=[redacted] and https://www.linkedin.com/e/v2?urlhash=93mD&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flegal%2Fprofessional-community-policies&lipi=[redacted] apply to all of our members. Violation of these policies can result in action against your account, content, or access to certain features. Depending on the nature and severity of the violation, LinkedIn may limit the visibility of certain content, label it, or remove content entirely. For more information about how LinkedIn enforces its policies, please visit the https://www.linkedin.com/e/v2?urlhash=YeSK&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fhelp%2Flinkedin%2Fanswer%2Fa1342754%3Fhcppcid%3Dsearch&lipi=[redacted].
+
+Members who use LinkedIn to create, store, modify, post or otherwise share content in violation of any applicable Indian law also may be subject to penalties o
+
+=== LINKS (defanged, never click) ===
+- hxxps://www[.]linkedin[.]com/e/v2?urlhash=1Q9e&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flegal%2Fuser-agreement&lipi=[redacted  (shown as: "(bare URL in text)")
+- hxxps://www[.]linkedin[.]com/e/v2?urlhash=i6r_&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flegal%2Fprivacy-policy&lipi=[redacted  (shown as: "(bare URL in text)")
+- hxxps://www[.]linkedin[.]com/e/v2?urlhash=93mD&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flegal%2Fprofessional-community-policies&lipi=[  (shown as: "(bare URL in text)")
+- hxxps://www[.]linkedin[.]com/e/v2?urlhash=YeSK&url=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fhelp%2Flinkedin%2Fanswer%2Fa1342754%3Fhcppcid%  (shown as: "(bare URL in text)")
+- hxxps://www[.]linkedin[.]com/help/linkedin/answer/4788?lang=en&lipi=[redacted  (shown as: "(bare URL in text)")
+- hxxps://www[.]linkedin[.]com/help/linkedin/answer/67?lang=en&lipi=[redacted  (shown as: "(bare URL in text)")
+Total unique links: 6
+
+=== ATTACHMENTS (names/types only, never opened) ===
+(none)
+
+=== AUTO FLAGS (hints for the analyst, not a verdict) ===
+- From domain is 'linkedin.com'
+- Link domains: www[.]linkedin[.]com

@@ -1,0 +1,20 @@
+Delivered-To: [redacted]
+Received: by 2002:a05:612c:6c8b:b0:5ca:b0d8:f78a with SMTP id 11csp109341vqk; Tue, 18 Aug 2026 18:53:43 -0700 (PDT)
+X-Received: by 2002:a05:6214:4983:b0:907:8eab:3062 with SMTP id 6a1803df08f44-90c5eafcbfdmr12609296d6.21.1787104423414; Tue, 18 Aug 2026 18:53:43 -0700 (PDT)
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@mailf.linkedin.com header.s=d2048-202308-0f header.b=bQgjeC57; dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=FmaLNBp+; spf=pass (google.com: domain of [redacted-token]@bounce.linkedin.com designates 108.174.3.226 as permitted sender) smtp.mailfrom=[redacted-token]@bounce.linkedin.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Return-Path: <[redacted-token]@bounce.linkedin.com>
+Received: from mailf-ab.linkedin.com (mailf-ab.linkedin.com. [108.174.3.226]) by mx.google.com with ESMTPS id 6a1803df08f44-90c5f27df98si3219796d6.177.2026.08.18.18.53.43 for <recipient@redacted.invalid> (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256); Tue, 18 Aug 2026 18:53:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of [redacted-token]@bounce.linkedin.com designates 108.174.3.226 as permitted sender) client-ip=108.174.3.226;
+Authentication-Results: mx.google.com; dkim=pass header.i=@mailf.linkedin.com header.s=d2048-202308-0f header.b=bQgjeC57; dkim=pass header.i=@linkedin.com header.s=d2048-202308-00 header.b=FmaLNBp+; spf=pass (google.com: domain of [redacted-token]@bounce.linkedin.com designates 108.174.3.226 as permitted sender) smtp.mailfrom=[redacted-token]@bounce.linkedin.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailf.linkedin.com; s=d2048-202308-0f; h=x-linkedin-fbl:x-linkedin-template:x-linkedin-class:to:content-type: mime-version:subject:message-id:from:date:from; bh=k8nYpuxHSaFLuT1hASJqDRRiRTQUfPMC/Ui3XoEH9gQ=; b=[signature trimmed]
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=linkedin.com; s=d2048-202308-00; h=x-linkedin-fbl:x-linkedin-template:x-linkedin-class:to:content-type: mime-version:subject:message-id:from:date:from; bh=k8nYpuxHSaFLuT1hASJqDRRiRTQUfPMC/Ui3XoEH9gQ=; b=[signature trimmed]
+Date: Wed, 19 Aug 2026 01:53:43 +0000 (UTC)
+From: LinkedIn <messages-noreply@linkedin.com>
+Message-ID: <1926638448.2178112.1787104423266@lva2-app73704.prod.linkedin.com>
+Subject: Reminder: Information Technology Rules
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_2178110_93708477.1787104423265"
+To: [redacted]
+X-LinkedIn-Class: LEGAL-NOTICE
+X-LinkedIn-Template: email_legal_tos_update_india
+Feedback-ID: email_legal_tos_update_india:linkedin
